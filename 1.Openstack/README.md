@@ -1,3 +1,9 @@
+# Devoir:
+
+* Creer docker sur la machine OpenStack
+
+* Creer un image et l'utiliser
+
 # OpenStack
 
 ## Pourquoi?
