@@ -8,13 +8,24 @@ https://docs.docker.com/machine/install-machine/
 * Pointer vers le controller OpenStack
 
 ```
- $ export OS_AUTH_URL=http://10.0.2.32:5000/v2.0 \
-          OS_TENANT_NAME=demo \
-          OS_USERNAME=demo \
-          OS_PASSWORD=$OPENSTACK_DEMO_PASSWORD          
+ $ sudo su - stack
+ $ source General-openrc.sh
 ```
 
 * Lancer la commande de creation de VM
+
+
+```
+docker-machine --debug create --driver openstack \
+     --openstack-flavor-name m1.small \
+     --openstack-image-name "cirros-0.3.4" \
+     --openstack-ssh-user "cirros" \
+     --openstack-floatingip-pool public \
+     --openstack-sec-groups default  \
+     --openstack-nova-network \
+     --openstack-net-name nova \
+     INF1045
+```
 
 ```
 $ docker-machine --debug create --driver openstack \
