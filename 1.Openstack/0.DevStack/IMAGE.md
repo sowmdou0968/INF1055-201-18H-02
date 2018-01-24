@@ -9,7 +9,6 @@ $ openstack image create \
          --disk-format qcow2 \
          --container-format bare \
          --public \
-         --progress \
          --file precise-server-cloudimg-amd64-disk1.img \
          "Ubuntu-14.04"
 $ nova boot --flavor m1.tiny --image Ubuntu-14.04 --nic net-id=<NET_ID> --key-name <KEY_PAIR> instancetest1
