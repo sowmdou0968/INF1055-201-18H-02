@@ -18,7 +18,7 @@ https://docs.docker.com/machine/install-machine/
 ```
 docker-machine --debug create --driver openstack \
      --openstack-flavor-name m1.small \
-     --openstack-image-name "cirros-0.3.4" \
+     --openstack-image-name "cirros-0.3.5" \
      --openstack-ssh-user "cirros" \
      --openstack-floatingip-pool public \
      --openstack-sec-groups default  \
