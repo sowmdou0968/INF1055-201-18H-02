@@ -35,7 +35,7 @@ docker-machine -D  create --driver openstack \
 --openstack-image-name "cirros-0.3.5-x86_64-disk" \
 --openstack-ssh-user ubuntu \
 --openstack-floatingip-pool PUBLIC \
---openstack-tenant-id 11dbd32de6a4421b8f973e8b59699aea \  
+--openstack-tenant-id 69b2b3a3e5af414ebc7ad250163e47ad \  
 --openstack-sec-groups default  \  
 --openstack-nova-network \  
 --openstack-net-name nova \  
