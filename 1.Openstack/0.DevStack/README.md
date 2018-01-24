@@ -138,5 +138,5 @@ docker-machine --debug create --driver openstack \
      --openstack-sec-groups default  \
      --openstack-nova-network \
      --openstack-net-name nova \
-     INF1045
+     INF1055
 ```
