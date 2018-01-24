@@ -25,6 +25,7 @@ docker-machine --debug create --driver openstack \
      --openstack-nova-network \
      --openstack-net-name nova \
      --openstack-tenant-name General \
+     --openstack-domain-name Default \
      INF1045
 ```
 
