@@ -18,13 +18,13 @@ https://docs.docker.com/machine/install-machine/
 ```
 docker-machine --debug create --driver openstack \
      --openstack-flavor-name m1.small \
-     --openstack-image-name "cirros-0.3.5" \
+     --openstack-image-name "cirros-0.3.5-x86_64-disk" \
      --openstack-ssh-user "cirros" \
      --openstack-floatingip-pool public \
      --openstack-sec-groups default  \
      --openstack-nova-network \
      --openstack-net-name nova \
-     --openstack-tenant-name General \
+     --openstack-tenant-id 69b2b3a3e5af414ebc7ad250163e47ad \
      --openstack-domain-name Default \
      INF1045
 ```
