@@ -41,7 +41,7 @@ $ openstack image create \
 Lancer l'image
 
 ```
-$ docker-machine --debug create --driver openstack \
+$ docker-machine --debug create --driver openstack --openstack-tenant-id <changer le tenant ID> \
      --openstack-flavor-name m1.small \
      --openstack-image-name "Ubuntu-16.04 LTS" \
      --openstack-ssh-user "ubuntu" \
@@ -49,7 +49,6 @@ $ docker-machine --debug create --driver openstack \
      --openstack-sec-groups default  \
      --openstack-nova-network \
      --openstack-net-name nova \
-     --openstack-tenant-id <changer le tenant ID> \
      --openstack-domain-name Default \
      INF1055
 ```
