@@ -6,12 +6,12 @@ Ubuntu 16.04 Image
 $ cd /run/shm  
 $ wget https://cloud-images.ubuntu.com/precise/current/precise-server-cloudimg-amd64-disk1.img
 $ openstack image create \
-         --name "Ubuntu-14.04" \
          --disk-format qcow2 \
          --container-format bare \
-          --is-public True \
-          --progress \
-         --file precise-server-cloudimg-amd64-disk1.img
+         --public \
+         --progress \
+         --file precise-server-cloudimg-amd64-disk1.img \
+         "Ubuntu-14.04"
 $ nova boot --flavor m1.tiny --image Ubuntu-14.04 --nic net-id=<NET_ID> --key-name <KEY_PAIR> instancetest1
 $ ssh -i <KEY_PAIR> ubuntu@<INSTANCE_FLOATING_IP>
 ```
