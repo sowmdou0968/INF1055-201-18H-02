@@ -5,7 +5,7 @@ Ubuntu 16.04 Image
 ```
 $ cd /run/shm  
 $ wget https://cloud-images.ubuntu.com/precise/current/precise-server-cloudimg-amd64-disk1.img
-$ glance image-create \
+$ openstack image create \
          --name "Ubuntu-14.04" \
          --disk-format qcow2 \
          --container-format bare \
