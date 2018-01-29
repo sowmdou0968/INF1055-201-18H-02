@@ -61,6 +61,7 @@
 
 - Recherche un FAI pour heberge son Nuage Prive
 - La compagnie se trouve dans le perimetre du College
+- 3 FAI a comparer
 
 Feb 07, 2018
 
