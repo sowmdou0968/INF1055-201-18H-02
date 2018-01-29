@@ -42,7 +42,7 @@ Lancer l'image
 
 ```
 $ docker-machine --debug create --driver openstack \
-     --openstack-flavor-name m1.small \
+     --openstack-flavor-name m1.medium \
      --openstack-image-name "Ubuntu-16.04 LTS" \
      --openstack-ssh-user "ubuntu" \
      --openstack-floatingip-pool public \
