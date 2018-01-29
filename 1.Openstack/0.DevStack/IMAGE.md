@@ -38,6 +38,12 @@ $ openstack image create \
 +------------------+------------------------------------------------------+
 ```
 
+Ouvrir le port Docker
+
+```
+$ openstack security group rule create default --protocol tcp --dst-port 2376:2376 --remote-ip 0.0.0.0/0
+```
+
 Lancer l'image
 
 ```
