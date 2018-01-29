@@ -56,15 +56,17 @@ https://docs.docker.com/machine/install-machine/
 * Lancer la commande de creation de VM
 
 ```
-$ docker-machine --debug create --driver openstack \
-     --openstack-flavor-name m1.small \
-     --openstack-image-name "Ubuntu-16.04" \
-     --openstack-ssh-user "ubuntu" \
-     --openstack-floatingip-pool public \
-     --openstack-sec-groups default  \
-     --openstack-nova-network \
-     --openstack-net-name nova \
-     INF1045
+$ docker-machine -D  create --driver openstack  \
+                            --openstack-flavor-name m1.tiny \
+                            --openstack-image-name "Ubuntu-16.04 LTS" \
+                            --openstack-ssh-user ubuntu  \
+                            --openstack-floatingip-pool PUBLIC    \
+                            --openstack-sec-groups default   \
+                            --openstack-nova-network  \
+                            --openstack-net-name nova \
+                            --openstack-domain-id default  \
+                            --openstack-tenant-id efc4a2df99874625804ffc1462795a89  \
+                            CB-TEST4
 ```
 
 ```
