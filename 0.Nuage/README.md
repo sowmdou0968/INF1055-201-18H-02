@@ -57,24 +57,13 @@
 
 # Devoir:  
 
-* Nuage Public et Privé   
-```
-  1) Exercice: Chercher des Nuages Gratuits
-```
-  * HP Entreprise Converged Infrastructure [Gary]   
-  * Google Compute Engine* [Gary]  
-  * IBM SmartCloud entreprise* [Gary]  
-  * Microsoft Azure TryOut [Julien]  
-  * Julien a chercher   
-```
-  2) Exercice: Faire la demonstration d'un Cloud 
-  * 30 minutes max
-  * lancer une instance de son choix
-  * si IaaS se connecter a son instance d'un Terminal Local
-  * si PaaS demontrer qu'il est vivant
-  * Lister les services offerts (i.e. DNS, VM, Object Store, DB)
-  Du Lundi 30 Janvier
-```
+* Nuage Privé   
+
+- Recherche un FAI pour heberge son Nuage Prive
+- La compagnie se trouve dans le perimetre du College
+
+Feb 07, 2018
+
   
 
 ## Nuage Public
