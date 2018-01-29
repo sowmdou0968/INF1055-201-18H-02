@@ -41,7 +41,7 @@ $ openstack image create \
 Lancer l'image
 
 ```
-$ docker-machine --debug create --driver openstack --openstack-tenant-id <changer le tenant ID> \
+$ docker-machine --debug create --driver openstack \
      --openstack-flavor-name m1.small \
      --openstack-image-name "Ubuntu-16.04 LTS" \
      --openstack-ssh-user "ubuntu" \
@@ -50,6 +50,7 @@ $ docker-machine --debug create --driver openstack --openstack-tenant-id <change
      --openstack-nova-network \
      --openstack-net-name nova \
      --openstack-domain-name Default \
+     --openstack-tenant-id <changer le tenant ID> \
      INF1055
 ```
 
@@ -59,5 +60,5 @@ $ ssh -i <KEY_PAIR> ubuntu@<INSTANCE_FLOATING_IP>
 ```
 
 ```
-$  openstack image delete "Ubuntu-16.04"
+$  openstack image delete "Ubuntu-16.04 LTS"
 ```
