@@ -59,11 +59,7 @@ $ docker-machine --debug create --driver openstack \
      --openstack-tenant-id <changer le tenant ID> \
      INF1055
 ```
-
-```
-$ nova boot --flavor m1.tiny --image "Ubuntu-16.04 LTS" --nic net-id=<NET_ID> --key-name <KEY_PAIR> instancetest1
-$ ssh -i <KEY_PAIR> ubuntu@<INSTANCE_FLOATING_IP>
-```
+Detruire l'image
 
 ```
 $  openstack image delete "Ubuntu-16.04 LTS"
