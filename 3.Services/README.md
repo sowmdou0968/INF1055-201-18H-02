@@ -6,7 +6,7 @@
 
 * Attacher le nome de domain a un machine virtuelle
 
-* Record Sets
+## Record Sets
 
 
 - APEX Zone
