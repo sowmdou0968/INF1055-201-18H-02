@@ -4,7 +4,7 @@
 
 * Enregistrer un nom de domaine
 
-* Attacher le nome de domain a un machine virtuelle
+* Attacher le nom de domain a un machine virtuelle
 
 ## Record Sets
 
