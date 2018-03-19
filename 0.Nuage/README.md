@@ -22,7 +22,7 @@
   * SaaS (Software as a Service)
   * FaaS (Function as a Service) ou Serverless
   * BaaS (Backend as a Service) [Obsolete]
-  * PaaS (Platform as a Serice)
+  * PaaS (Platform as a Service)
   - µS (Mesos DCOS or VmWare VSphere)
   * IaaS (Infrastructure as a Service)
 
