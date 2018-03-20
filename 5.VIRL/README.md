@@ -10,3 +10,7 @@ Dans le cadre d'un environnment nuagique local:
 
 http://get.virl.info/iso.bm.php
 
+Example:
+
+https://www.youtube.com/watch?v=rV5rbj2VZfM
+
